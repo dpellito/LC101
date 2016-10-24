@@ -18,3 +18,19 @@ print(answer)
 
 
 #learned about making float part of the input line, originally was finding input and converting types on next line.
+
+
+if answer = 0.0
+    print("Sunday")
+elif answer = 1.0
+    print("Monday")
+elif answer = 2.0
+    print("Tuesday")
+elif answer = 3.0
+    print("Wednesday")
+elif answer = 4.0
+    print("Thursday")
+elif answer = 5.0
+    print("Friday")
+elif answer = 6.0
+    print("Saturday")
