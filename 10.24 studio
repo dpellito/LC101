@@ -6,3 +6,15 @@
 #Write a general version of the program which asks for the starting day number, and the length of your stay, and it will tell you
 #the number of day of the week you will return on.
 
+leaveday = float(input("What day are you leaving on?"))
+
+staylength = float(input("How many days will you be gone?"))
+
+totaldays = (leaveday + staylength)
+
+answer = totaldays % 7
+
+print(answer)
+
+
+#learned about making float part of the input line, originally was finding input and converting types on next line.
