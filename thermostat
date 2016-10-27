@@ -13,8 +13,9 @@
 clicks_str = input("By how many clicks has the dial been turned?\n")
 clicks = int(clicks_str)
 
-total = clicks + 40
+total = int(clicks + 40)
 
-
-  else
+if total <= 89:
     print(total)
+else: 
+    print(total % 50 + 40)
