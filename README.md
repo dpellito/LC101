@@ -1,2 +1,2 @@
 # LC101
-Coursework for my LC 101 class
+Coursework for my LC 101 class at URI.
