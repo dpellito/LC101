@@ -16,6 +16,6 @@ clicks = int(clicks_str)
 total = int(clicks + 40)
 
 if total <= 89:
-    print(total)
+    print("The temperature is " total)
 else: 
-    print(total % 50 + 40)
+    print("The temperature is " total % 50 + 40)
